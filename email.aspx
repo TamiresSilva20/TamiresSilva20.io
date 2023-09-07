@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-    <asp:Label ID="lblemail" runat="server" >Digite seu email novo: </asp:Label>
+    <asp:Label ID="lblemail" runat="server" >Digite seu email : </asp:Label>
         <asp:TextBox ID="txtEnviaEmail" runat="server"></asp:TextBox>
         <asp:Button ID="BtnEnviar" runat="server" Text="Enviar Planilha por Email" OnClick="BtnEnviar_Click" />
             <br />
